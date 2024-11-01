@@ -1,47 +1,47 @@
-
+# Travel Planner Backend
 The backend for the Travel Planner application is built using NestJS. It provides a robust and scalable API to support the frontend functionalities, including user authentication, itinerary management, booking services, and more.
 
-### Features
-User Authentication: Secure user authentication and authorization.
-Database Integration: Manage data with PostgreSQL using TypeORM.
-RESTful API: Provide endpoints for frontend interactions.
-Third-Party Integrations: Integrate with external services for booking, mapping, and social interactions.
-## Project Structure
-### Modules
-AuthModule: Handles user authentication and authorization.
-HttpModule: Provides HTTP client functionality.
-ConfigModule: Manages application configuration.
-TypeOrmModule: Integrates with PostgreSQL database.
-### Services
-UserService: Manages user-related operations.
-DestinationService: Handles destination-related operations.
-POIService: Manages points of interest.
-ItineraryService: Handles itinerary-related operations.
-BookingService: Manages booking operations.
-ReviewService: Handles reviews.
-ExpenseService: Manages travel expenses.
-CommunityService: Manages community interactions.
-BookingIntegrationService: Integrates with booking services.
-MapIntegrationService: Integrates with mapping services.
-SocialIntegrationService: Integrates with social platforms.
-### Controllers
-UserController: Handles user-related API endpoints.
-DestinationController: Manages destination-related API endpoints.
-POIController: Handles points of interest API endpoints.
-ItineraryController: Manages itinerary-related API endpoints.
-BookingController: Handles booking-related API endpoints.
-ReviewController: Manages review-related API endpoints.
-ExpenseController: Handles expense-related API endpoints.
-CommunityController: Manages community-related API endpoints.
-### Entities
-User: Represents user data.
-Destination: Represents travel destinations.
-PointOfInterest: Represents points of interest.
-Itinerary: Represents travel itineraries.
-Booking: Represents bookings.
-Review: Represents reviews.
-Expense: Represents travel expenses.
-Community: Represents community interactions.
+## Features
+- User Authentication: Secure user authentication and authorization.
+- Database Integration: Manage data with PostgreSQL using TypeORM.
+- RESTful API: Provide endpoints for frontend interactions.
+- Third-Party Integrations: Integrate with external services for booking, mapping, and social interactions.
+### Project Structure
+## Modules
+- AuthModule: Handles user authentication and authorization.
+- HttpModule: Provides HTTP client functionality.
+- ConfigModule: Manages application configuration.
+- TypeOrmModule: Integrates with PostgreSQL database.
+## Services
+- UserService: Manages user-related operations.
+- DestinationService: Handles destination-related operations.
+- POIService: Manages points of interest.
+- ItineraryService: Handles itinerary-related operations.
+- BookingService: Manages booking operations.
+- ReviewService: Handles reviews.
+- ExpenseService: Manages travel expenses.
+- CommunityService: Manages community interactions.
+- BookingIntegrationService: Integrates with booking services.
+- MapIntegrationService: Integrates with mapping services.
+- SocialIntegrationService: Integrates with social platforms.
+## Controllers
+- UserController: Handles user-related API endpoints.
+- DestinationController: Manages destination-related API endpoints.
+- POIController: Handles points of interest API endpoints.
+- ItineraryController: Manages itinerary-related API endpoints.
+- BookingController: Handles booking-related API endpoints.
+- ReviewController: Manages review-related API endpoints.
+- ExpenseController: Handles expense-related API endpoints.
+- CommunityController: Manages community-related API endpoints.
+## Entities
+- User: Represents user data.
+- Destination: Represents travel destinations.
+- PointOfInterest: Represents points of interest.
+- Itinerary: Represents travel itineraries.
+- Booking: Represents bookings.
+- Review: Represents reviews.
+- Expense: Represents travel expenses.
+- Community: Represents community interactions.
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
